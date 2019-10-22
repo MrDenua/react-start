@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+let a = 'hello world';
+const element = React.createElement('h2', {}, 'This is react element');
+
 const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    return (
+        <div className="App">
+            <h1>typescript {a}</h1>
+            <Hello/>
+          {element}
+        </div>
+    );
+};
+
+const Hello: React.FC = () => {
+    return (
+        <a href="#">hello, <World/></a>
+    )
+};
+
+const World: React.FC = function () {
+    return (<b>World</b>)
+};
 
 export default App;
