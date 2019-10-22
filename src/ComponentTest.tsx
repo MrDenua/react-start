@@ -3,8 +3,18 @@ import React from 'react'
 class Welcome extends React.Component {
 
     render() {
-        return <h1>{'f'}, Welcome to react component.</h1>;
+        let lam:string = ", Welcome to react component.";
+        return <h1>{'Hello'}{lam}</h1>;
     }
 }
 
-export default Welcome
+interface Name {
+    firstName: string,
+    lastName: string
+}
+
+function TestPropsComponent(name:Name){
+    return <p><b>Your name is: {name.firstName}.{name.lastName}</b></p>
+}
+export {Welcome}
+export default TestPropsComponent
