@@ -2,16 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import StateComponent from "./ComponentStatTest";
 import * as serviceWorker from './serviceWorker';
+import {ComponentFun} from "./ComponentTest";
 
-interface Prop {
-    name: string,
-    age: number
-}
-
-function ComponentFun(props: any) {
-    return <h1>hello, component function, {props.name}</h1>
-}
 
 ReactDOM.render(<ComponentFun name="nick"/>, document.getElementById('container'));
 ReactDOM.render(<App/>, document.getElementById('root'));

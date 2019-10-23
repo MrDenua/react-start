@@ -8,6 +8,15 @@ class Welcome extends React.Component {
     }
 }
 
+interface Prop {
+    name: string,
+    age: number
+}
+
+function ComponentFun(props: any) {
+    return <h1>hello, component function, {props.name}</h1>
+}
+
 interface Name {
     firstName: string,
     lastName: string
@@ -16,5 +25,5 @@ interface Name {
 function TestPropsComponent(name:Name){
     return <p><b>Your name is: {name.firstName}.{name.lastName}</b></p>
 }
-export {Welcome}
+export {Welcome, ComponentFun}
 export default TestPropsComponent
