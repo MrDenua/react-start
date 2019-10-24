@@ -9,6 +9,7 @@ import StateComponent from "./ComponentStatTest";
 import EventTestComponent from "./EventTest";
 import ListComponent from "./ListComponentTest";
 import FormComponent from "./FormComponentTest";
+import ShareStateBComponent from "./ShareStateComponentTest"
 
 let a = 'hello world';
 const element = React.createElement('h2', {}, 'This is react element');
@@ -25,6 +26,7 @@ const App: React.FC = () => {
                 {element}
                 <p>this is component state:<StateComponent name="ThisIsProp_Name"/></p>
                 <EventTestComponent/>
+                <ShareStateBComponent />
             </div>
             <p>list component:</p>
             <ListComponent list={['AAA', 'BBB', 'CCC', 'DDD']}/>

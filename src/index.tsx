@@ -6,7 +6,6 @@ import StateComponent from "./ComponentStatTest";
 import * as serviceWorker from './serviceWorker';
 import {ComponentFun} from "./ComponentTest";
 
-
 ReactDOM.render(<ComponentFun name="nick"/>, document.getElementById('container'));
 ReactDOM.render(<App/>, document.getElementById('root'));
 
