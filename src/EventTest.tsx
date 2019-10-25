@@ -5,7 +5,6 @@ interface Switch {
 }
 class EventTestComponent extends React.Component<any, Switch> {
 
-
     constructor(props: any) {
         super(props);
         this.state = {toggleOn: false};
