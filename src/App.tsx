@@ -10,6 +10,7 @@ import EventTestComponent from "./EventTest";
 import ListComponent from "./ListComponentTest";
 import FormComponent from "./FormComponentTest";
 import ShareStateBComponent from "./ShareStateComponentTest"
+import MessageDialogComponent from "./ComposeAndExtendTest";
 
 let a = 'hello world';
 const element = React.createElement('h2', {}, 'This is react element');
@@ -18,6 +19,7 @@ const App: React.FC = () => {
     return (
         <div>
             <div className="App">
+                <MessageDialogComponent/>
                 <h1>typescript {a}</h1>
                 <Hello/>
                 <TestPropsComponent firstName="Jack" lastName="Ham"/>
@@ -26,7 +28,7 @@ const App: React.FC = () => {
                 {element}
                 <p>this is component state:<StateComponent name="ThisIsProp_Name"/></p>
                 <EventTestComponent/>
-                <ShareStateBComponent />
+                <ShareStateBComponent/>
             </div>
             <p>list component:</p>
             <ListComponent list={['AAA', 'BBB', 'CCC', 'DDD']}/>
