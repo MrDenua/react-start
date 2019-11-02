@@ -11,6 +11,7 @@ import ListComponent from "./ListComponentTest";
 import FormComponent from "./FormComponentTest";
 import ShareStateBComponent from "./ShareStateComponentTest"
 import MessageDialogComponent from "./ComposeAndExtendTest";
+import AntdComponent from "./antd/FirstSample";
 
 let a = 'hello world';
 const element = React.createElement('h2', {}, 'This is react element');
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <div>
             <div className="App">
                 <MessageDialogComponent/>
+                <AntdComponent/>
                 <h1>typescript {a}</h1>
                 <Hello/>
                 <TestPropsComponent firstName="Jack" lastName="Ham"/>

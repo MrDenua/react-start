@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d884e67-c09d-4345-948b-b5a2e19ef3a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/antd/FirstSample.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComposeAndExtendTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComposeAndExtendTest.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +79,10 @@
       <updated>1572008655233</updated>
       <workItem from="1572008663327" duration="3075000" />
       <workItem from="1572185084236" duration="629000" />
-      <workItem from="1572355138339" duration="2738000" />
+      <workItem from="1572355138339" duration="2925000" />
+      <workItem from="1572436359539" duration="2267000" />
+      <workItem from="1572526127372" duration="2811000" />
+      <workItem from="1572693051302" duration="1795000" />
     </task>
     <task id="LOCAL-00002" summary="compose component">
       <created>1572019062842</created>
@@ -93,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572190774509</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="component composition">
+      <created>1572363532744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572363532744</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="share state component" />
     <MESSAGE value="compose component" />
-    <option name="LAST_COMMIT_MESSAGE" value="compose component" />
+    <MESSAGE value="component composition" />
+    <option name="LAST_COMMIT_MESSAGE" value="component composition" />
   </component>
 </project>
