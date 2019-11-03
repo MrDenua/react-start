@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d884e67-c09d-4345-948b-b5a2e19ef3a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/antd/FirstSample.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/antd/AntDemo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/md/MaterialUI.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-start/MainComponent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComponentStatTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ComponentStatTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComponentTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ComponentTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComponentTest2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ComponentTest2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComposeAndExtendTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ComposeAndExtendTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EventTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/EventTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormComponentTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/FormComponentTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListComponentTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ListComponentTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShareStateComponentTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ShareStateComponentTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeScriptTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/TypeScriptTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +47,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="G:\github\react-start\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\github\react-start\src\react-start" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,7 +99,9 @@
       <workItem from="1572355138339" duration="2925000" />
       <workItem from="1572436359539" duration="2267000" />
       <workItem from="1572526127372" duration="2811000" />
-      <workItem from="1572693051302" duration="1795000" />
+      <workItem from="1572693051302" duration="5795000" />
+      <workItem from="1572762585483" duration="2998000" />
+      <workItem from="1572776246957" duration="980000" />
     </task>
     <task id="LOCAL-00002" summary="compose component">
       <created>1572019062842</created>
@@ -105,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572363532744</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ant design sample">
+      <created>1572696253564</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572696253564</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +154,7 @@
     <MESSAGE value="share state component" />
     <MESSAGE value="compose component" />
     <MESSAGE value="component composition" />
-    <option name="LAST_COMMIT_MESSAGE" value="component composition" />
+    <MESSAGE value="ant design sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="ant design sample" />
   </component>
 </project>

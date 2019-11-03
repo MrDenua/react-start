@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import StateComponent from "./ComponentStatTest";
+import StateComponent from "./react-start/ComponentStatTest";
 import * as serviceWorker from './serviceWorker';
-import {ComponentFun} from "./ComponentTest";
+import {ComponentFun} from "./react-start/ComponentTest";
 
 ReactDOM.render(<ComponentFun name="nick"/>, document.getElementById('container'));
 ReactDOM.render(<App/>, document.getElementById('root'));
