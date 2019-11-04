@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d884e67-c09d-4345-948b-b5a2e19ef3a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/antd/AntDemo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/md/MaterialUI.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-start/MainComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/md/GridDome.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComponentStatTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ComponentStatTest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComponentTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ComponentTest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComponentTest2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ComponentTest2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComposeAndExtendTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ComposeAndExtendTest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EventTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/EventTest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FormComponentTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/FormComponentTest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListComponentTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ListComponentTest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShareStateComponentTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/ShareStateComponentTest.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypeScriptTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-start/TypeScriptTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/md/MaterialUI.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/md/MaterialUI.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +89,9 @@
       <workItem from="1572526127372" duration="2811000" />
       <workItem from="1572693051302" duration="5795000" />
       <workItem from="1572762585483" duration="2998000" />
-      <workItem from="1572776246957" duration="980000" />
+      <workItem from="1572776246957" duration="1042000" />
+      <workItem from="1572789712717" duration="3403000" />
+      <workItem from="1572871588227" duration="5311000" />
     </task>
     <task id="LOCAL-00002" summary="compose component">
       <created>1572019062842</created>
@@ -131,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572696253564</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="material ui">
+      <created>1572781483945</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572781483945</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +152,7 @@
     <MESSAGE value="compose component" />
     <MESSAGE value="component composition" />
     <MESSAGE value="ant design sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="ant design sample" />
+    <MESSAGE value="material ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="material ui" />
   </component>
 </project>
