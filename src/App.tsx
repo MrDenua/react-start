@@ -6,8 +6,11 @@ import './react-start/MainComponent';
 import ReactSampleComponent from "./react-start/MainComponent";
 import './md/MaterialUI'
 import MaterialUI from "./md/MaterialUI";
+import Start from "./ts/Start";
+import f from "./ts/Start";
 
 const App: React.FC = () => {
+
     return (
         <div>
             <div className="App">
