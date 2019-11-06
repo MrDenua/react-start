@@ -7,13 +7,15 @@ import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import FluidComponent from "./GridDome";
+import HiddenDemoComponent from "./HiddenDemo";
 
 class MaterialUI extends React.PureComponent {
 
     render() {
         return (
             <div>
-                <FluidComponent/>
+                <HiddenDemoComponent/>
+                {/*<FluidComponent/>*/}
                 {/*<Box>*/}
                 {/*    <Button variant="outlined" color="primary">*/}
                 {/*        Hello World.*/}
