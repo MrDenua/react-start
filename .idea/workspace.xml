@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d884e67-c09d-4345-948b-b5a2e19ef3a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/md/HiddenDemo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/md/OtherDemo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/RouterDemo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/md/MaterialUI.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/md/MaterialUI.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +91,8 @@
       <workItem from="1572762585483" duration="2998000" />
       <workItem from="1572776246957" duration="980000" />
       <workItem from="1572955801793" duration="5956000" />
-      <workItem from="1573046731918" duration="3911000" />
+      <workItem from="1573046731918" duration="3948000" />
+      <workItem from="1573130589005" duration="6343000" />
     </task>
     <task id="LOCAL-00002" summary="compose component">
       <created>1572019062842</created>
@@ -127,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572962586998</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hidden">
+      <created>1573053750589</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573053750589</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +161,7 @@
     <MESSAGE value="component composition" />
     <MESSAGE value="ant design sample" />
     <MESSAGE value="material ui gridlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="material ui gridlist" />
+    <MESSAGE value="hidden" />
+    <option name="LAST_COMMIT_MESSAGE" value="hidden" />
   </component>
 </project>

@@ -6,20 +6,17 @@ import './react-start/MainComponent';
 import ReactSampleComponent from "./react-start/MainComponent";
 import './md/MaterialUI'
 import MaterialUI from "./md/MaterialUI";
-import Start from "./ts/Start";
-import f from "./ts/Start";
 
-const App: React.FC = () => {
 
+const App: React.FC = main;
+
+function main() {
     return (
-        <div>
-            <div className="App">
-                <MaterialUI/>
-                {/*<ReactSampleComponent/>*/}
-            </div>
+        <div className="App">
+            {/*<MaterialUI/>*/}
+            <ReactSampleComponent/>
         </div>
-
     );
-};
+}
 
 export default App;
