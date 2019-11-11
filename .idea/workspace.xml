@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de8e1eee-234f-49ff-bbd9-e5d574145293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/router/ReactRouterDemo.tsx" afterDir="false" />
+    <list default="true" id="0d884e67-c09d-4345-948b-b5a2e19ef3a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/router/RouterDemo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,14 +28,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/github/dengzi-blog/web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\ZH-301-001\WebstormProjects\untitled\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="G:\github\react-start\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -78,7 +77,7 @@
       <updated>1571929711618</updated>
     </task>
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de8e1eee-234f-49ff-bbd9-e5d574145293" name="Default Changelist" comment="" />
+      <changelist id="0d884e67-c09d-4345-948b-b5a2e19ef3a8" name="Default Changelist" comment="" />
       <created>1572008655233</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -91,8 +90,9 @@
       <workItem from="1572693051302" duration="5795000" />
       <workItem from="1572762585483" duration="2998000" />
       <workItem from="1572776246957" duration="980000" />
-      <workItem from="1573204791874" duration="267000" />
-      <workItem from="1573463769231" duration="2522000" />
+      <workItem from="1572955801793" duration="5956000" />
+      <workItem from="1573046731918" duration="3948000" />
+      <workItem from="1573130589005" duration="6343000" />
     </task>
     <task id="LOCAL-00002" summary="compose component">
       <created>1572019062842</created>
@@ -122,14 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572696253564</updated>
     </task>
-    <task id="LOCAL-00006" summary="ts">
-      <created>1572861839427</created>
+    <task id="LOCAL-00006" summary="material ui gridlist">
+      <created>1572962586998</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1572861839427</updated>
+      <updated>1572962586998</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hidden">
+      <created>1573053750589</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573053750589</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +160,8 @@
     <MESSAGE value="compose component" />
     <MESSAGE value="component composition" />
     <MESSAGE value="ant design sample" />
-    <MESSAGE value="ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="ts" />
+    <MESSAGE value="material ui gridlist" />
+    <MESSAGE value="hidden" />
+    <option name="LAST_COMMIT_MESSAGE" value="hidden" />
   </component>
 </project>

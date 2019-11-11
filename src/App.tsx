@@ -6,22 +6,21 @@ import './react-start/MainComponent';
 import ReactSampleComponent from "./react-start/MainComponent";
 import './md/MaterialUI'
 import MaterialUI from "./md/MaterialUI";
-import Start from "./ts/Start";
-import f from "./ts/Start";
-import ReactRouterDemoComponent from "./router/ReactRouterDemo";
 
-const App: React.FC = () => {
 
-    return (
-        <div>
+    const App: React.FC = main;
+
+    function main() {
+        return (
             <div className="App">
                 <MaterialUI/>
                 {/*<ReactRouterDemoComponent/>*/}
                 {/*<ReactSampleComponent/>*/}
+
+                {/*<MaterialUI/>*/}
+                <ReactSampleComponent/>
             </div>
-        </div>
+        );
+    }
 
-    );
-};
-
-export default App;
+    export default App;
