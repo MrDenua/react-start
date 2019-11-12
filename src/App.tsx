@@ -3,24 +3,23 @@ import './App.css';
 import './react-start/TypeScriptTest';
 import './react-start/ComponentTest2';
 import './react-start/MainComponent';
-import ReactSampleComponent from "./react-start/MainComponent";
 import './md/MaterialUI'
-import MaterialUI from "./md/MaterialUI";
+import ReactRouterDemoComponent from "./router/ReactRouterDemo";
 
 
-    const App: React.FC = main;
+const App: React.FC = main;
 
-    function main() {
-        return (
-            <div className="App">
-                <MaterialUI/>
-                {/*<ReactRouterDemoComponent/>*/}
-                {/*<ReactSampleComponent/>*/}
+function main() {
+    return (
+        <div className="App">
+            {/*<MaterialUI/>*/}
+            <ReactRouterDemoComponent/>
+            {/*<ReactSampleComponent/>*/}
 
-                {/*<MaterialUI/>*/}
-                <ReactSampleComponent/>
-            </div>
-        );
-    }
+            {/*<MaterialUI/>*/}
+            {/*<ReactSampleComponent/>*/}
+        </div>
+    );
+}
 
-    export default App;
+export default App;
